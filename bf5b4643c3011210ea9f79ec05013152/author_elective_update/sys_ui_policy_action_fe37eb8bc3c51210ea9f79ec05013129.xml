@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>available_stock</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 18:13:50</sys_created_on>
+        <sys_id>fe37eb8bc3c51210ea9f79ec05013129</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>available_stock</sys_name>
+        <sys_package display_value="Customer Support App" source="x_snc_customer_sup">bf5b4643c3011210ea9f79ec05013152</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Support App">bf5b4643c3011210ea9f79ec05013152</sys_scope>
+        <sys_update_name>sys_ui_policy_action_fe37eb8bc3c51210ea9f79ec05013129</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 18:13:50</sys_updated_on>
+        <table>x_snc_customer_sup_products_table</table>
+        <ui_policy display_value="Hide warranty duration field for software category">fca62b4bc3c51210ea9f79ec05013175</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=fe37eb8bc3c51210ea9f79ec05013129"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Customer Support App">bf5b4643c3011210ea9f79ec05013152</application>
+        <file_path/>
+        <instance_id>24ef161fdba98e5837d72a59139619a7</instance_id>
+        <instance_name>dev260184</instance_name>
+        <name>sys_ui_policy_action_fe37eb8bc3c51210ea9f79ec05013129</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>available_stock</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-09 18:13:50</sys_created_on><sys_id>fe37eb8bc3c51210ea9f79ec05013129</sys_id><sys_mod_count>0</sys_mod_count><sys_name>available_stock</sys_name><sys_package display_value="Customer Support App" source="x_snc_customer_sup">bf5b4643c3011210ea9f79ec05013152</sys_package><sys_policy/><sys_scope display_value="Customer Support App">bf5b4643c3011210ea9f79ec05013152</sys_scope><sys_update_name>sys_ui_policy_action_fe37eb8bc3c51210ea9f79ec05013129</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-09 18:13:50</sys_updated_on><table>x_snc_customer_sup_products_table</table><ui_policy display_value="Hide warranty duration field for software category">fca62b4bc3c51210ea9f79ec05013175</ui_policy><value/><value_action>ignore</value_action><visible>false</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=fe37eb8bc3c51210ea9f79ec05013129"/></record_update>]]></payload>
+        <payload_hash>547625601</payload_hash>
+        <record_name>available_stock</record_name>
+        <reverted_from/>
+        <source>8b251a43c3411210ea9f79ec050131e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 18:13:50</sys_created_on>
+        <sys_id>a947a3cbc3c51210ea9f79ec05013130</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192727cbec70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 18:13:50</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>ad47a3cb4cc51210cf11f2028ddf132f</update_guid>
+        <update_guid_history>ad47a3cb4cc51210cf11f2028ddf132f:547625601</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 19:08:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>31bc0210aa7341c0bde3c3cf3133d100</sys_id>
+        <sys_metadata>fe37eb8bc3c51210ea9f79ec05013129</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>available_stock</sys_name>
+        <sys_package display_value="Customer Support App" source="x_snc_customer_sup">bf5b4643c3011210ea9f79ec05013152</sys_package>
+        <sys_parent display_value="Hide warranty duration field for software category">fca62b4bc3c51210ea9f79ec05013175</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Customer Support App">bf5b4643c3011210ea9f79ec05013152</sys_scope>
+        <sys_scope_delete display_value="">047898c185b54b8db95108929b2f5381</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_fe37eb8bc3c51210ea9f79ec05013129</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_fe37eb8bc3c51210ea9f79ec05013129">a947a3cbc3c51210ea9f79ec05013130</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 19:08:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

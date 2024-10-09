@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="092ec2cbc3011210ea9f79ec0501319b" label="Products Table" max_length="40" name="x_snc_customer_sup_products_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Catgeory" mandatory="true" max_length="40" name="catgeory" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Software" value="software"/>
+                <element inactive_on_update="false" label="Electronics" value="electronics"/>
+                <element inactive_on_update="false" label="Networking Devices" value="cloud_solutions"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Product Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" value="active"/>
+                <element inactive_on_update="false" label="Inactive" value="inactive"/>
+            </choice>
+        </element>
+        <element label="Price" mandatory="true" max_length="40" name="price" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Warranty Duration" max_length="40" name="warranty_duration" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="160" name="description" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

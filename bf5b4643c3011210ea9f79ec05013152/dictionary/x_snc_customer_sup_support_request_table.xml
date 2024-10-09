@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="034fca0fc3011210ea9f79ec0501319b" label="Support Request Table" max_length="40" name="x_snc_customer_sup_support_request_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status " mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
+                <element inactive_on_update="false" label="Resolved" value="resolved"/>
+                <element inactive_on_update="false" label="In progress" value="in_progress"/>
+            </choice>
+        </element>
+        <element label="Priority" max_length="40" name="priority" type="integer"/>
+        <element attributes="encode_utf8=false" label="Customer Name" mandatory="true" max_length="32" name="customer_name" reference="x_snc_customer_sup_customer_table" type="reference"/>
+        <element attributes="encode_utf8=false" label="Customer ID" mandatory="true" max_length="32" name="customer_id" reference="x_snc_customer_sup_customer_table" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Issue Description" max_length="160" name="issue_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Request Date" mandatory="true" max_length="40" name="request_date" type="glide_date_time"/>
+        <element label="Request id" max_length="40" name="request_id" type="integer"/>
+        <element attributes="encode_utf8=false" label="Product Id" mandatory="true" max_length="32" name="product_id" reference="x_snc_customer_sup_products_table" type="reference"/>
+        <element attributes="encode_utf8=false" label="Product Name" mandatory="true" max_length="32" name="product_name" reference="x_snc_customer_sup_products_table" type="reference"/>
+        <index name="index">
+            <element name="customer_id"/>
+        </index>
+        <index name="index2">
+            <element name="customer_name"/>
+        </index>
+        <index name="index3">
+            <element name="product_id"/>
+        </index>
+        <index name="index4">
+            <element name="product_name"/>
+        </index>
+    </element>
+</database>
