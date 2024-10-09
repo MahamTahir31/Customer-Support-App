@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="contact" label="Contact " language="en" table="x_snc_customer_sup_customer_table">
+    <sys_documentation element="product_name" label="Product Name" language="en" table="x_snc_customer_sup_support_request_table">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>contact</element>
+            <element>product_name</element>
             <help/>
             <hint/>
-            <label>Contact </label>
+            <label>Product Name</label>
             <language>en</language>
-            <name>x_snc_customer_sup_customer_table</name>
-            <plural>Contact s</plural>
+            <name>x_snc_customer_sup_support_request_table</name>
+            <plural>Product Names</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-09 11:36:49</sys_created_on>
+            <sys_created_on>2024-10-09 16:47:20</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Contact</sys_name>
+            <sys_name>Product Name</sys_name>
             <sys_package display_value="Customer Support App" source="x_snc_customer_sup">bf5b4643c3011210ea9f79ec05013152</sys_package>
             <sys_policy/>
             <sys_scope display_value="Customer Support App">bf5b4643c3011210ea9f79ec05013152</sys_scope>
-            <sys_update_name>sys_documentation_x_snc_customer_sup_customer_table_contact_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_snc_customer_sup_support_request_table_product_name_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-09 11:36:49</sys_updated_on>
+            <sys_updated_on>2024-10-09 16:47:20</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

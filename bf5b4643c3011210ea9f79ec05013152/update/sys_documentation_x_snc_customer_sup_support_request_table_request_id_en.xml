@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="request_id" label="Request ID" language="en" table="x_snc_customer_sup_support_request_table">
+    <sys_documentation element="request_id" label="Request id" language="en" table="x_snc_customer_sup_support_request_table">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>request_id</element>
             <help/>
             <hint/>
-            <label>Request ID</label>
+            <label>Request id</label>
             <language>en</language>
             <name>x_snc_customer_sup_support_request_table</name>
-            <plural>Request IDs</plural>
+            <plural>Request ids</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-10-09 11:49:29</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Request ID</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Request id</sys_name>
             <sys_package display_value="Customer Support App" source="x_snc_customer_sup">bf5b4643c3011210ea9f79ec05013152</sys_package>
             <sys_policy/>
             <sys_scope display_value="Customer Support App">bf5b4643c3011210ea9f79ec05013152</sys_scope>
             <sys_update_name>sys_documentation_x_snc_customer_sup_support_request_table_request_id_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-09 11:49:29</sys_updated_on>
+            <sys_updated_on>2024-10-09 16:47:21</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
