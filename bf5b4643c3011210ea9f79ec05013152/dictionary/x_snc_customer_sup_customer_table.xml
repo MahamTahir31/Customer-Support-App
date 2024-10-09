@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="956c424bc3011210ea9f79ec05013132" label="Customer Table" max_length="40" name="x_snc_customer_sup_customer_table" type="collection">
+        <element label="Contact " max_length="40" name="contact" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Account Type" mandatory="true" max_length="40" name="account_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Regular" value="regular"/>
+                <element inactive_on_update="false" label="Premium" value="premium"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Join Date" max_length="40" name="join_date" type="glide_date_time"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Customer ID" mandatory="true" max_length="40" name="customer_id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
